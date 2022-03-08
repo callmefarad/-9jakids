@@ -1,0 +1,119 @@
+.searchFilter{
+    background-color: rgb(245, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+}
+.searchBarWrapper{
+    display: flex;
+    justify-content: center;
+    /* background-color: tomato; */
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.filters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.groupsWrapper, .levelsWrapper{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #0C4572; */
+    border: 1px solid #0C4572;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.groupsWrapper:hover, .levelsWrapper:hover{
+    background-color: #0C4572;
+}
+
+.groupsWrapper{
+    margin-right: 5px;  
+}
+.levelsWrapper{
+    margin-left: 5px;
+}
+
+.filteredText{
+    /* background-color: red; */
+    border-radius: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #0C4572;
+}
+.filteredText:hover{
+    color: white;
+}
+
+.parentWrapper{
+    background-color: rgb(245, 235, 235);
+    display: flex;
+    justify-content: center;
+}
+
+.cardWrapper{
+    background-color: white;
+    width:80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px
+    0px
+    30px
+    0px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.cardContainer {
+    /* background-color: tomato; */
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    /* border: 1px solid rgba(207, 207, 207, 0.45); */
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 20px 25px -25px;
+}
+.cardContainer:hover{
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    transform: scale(0.9);
+    transition: ease-out 0.45s;
+    border: 2px rgb(207, 207, 207);
+}
+
+.gameImage{
+    border-radius: 5px 5px 0 0;
+}
+
+.parentText{
+    
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+}
+
+.gameTitle {
+    color: #046d67;
+    font-size: 16px;
+    font-weight:700;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.gameDescription {
+    color: black;
+    font-size: 14px;
+}

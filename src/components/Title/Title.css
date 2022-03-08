@@ -1,0 +1,14 @@
+.titleWrapper{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleContainer {
+    color: tomato;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+}
